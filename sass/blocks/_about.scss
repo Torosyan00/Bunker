@@ -1,0 +1,247 @@
+.about{
+    background-color: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 500px;
+}
+.about-h1 {
+    text-align: center;
+}
+.work {
+    margin-left: 20%;
+    margin-top: 65px;
+}
+.second {
+    display: block;
+    margin-right: 173px;
+    float: right;
+    transform: translateY(-461px);
+    opacity: 0;
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card {
+    margin-top: 79px;
+    cursor: pointer;
+    width: 340px;
+    height: 480px;
+}
+.front, .back {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.front img {
+    height: 100%;
+}
+.front {
+    transform: perspective(600px) rotateY(0deg);
+}
+.back {
+    background: #fce5c5;
+    transform: perspective(600px) rotateY(180deg);
+}
+.back-content {
+    color: #2c3e50;
+    text-align: center;
+    width: 100%;
+}
+.card:hover > .front {
+    transition: 1s;
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back {
+    transition: 1s;
+    transform: perspective(600px) rotateY(0deg);
+}
+.card:hover ~ .second {
+    display: block;
+    transition: 3s;
+    opacity: 1;
+
+}
+.work-1 {
+    margin-left: 20%;
+    margin-top: 128px;
+}
+.second-1 {
+    display: block;
+    margin-right: 173px;
+    float: right;
+    transform: translateY(-473px);
+    opacity: 0;
+}
+.middle-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-1 {
+    margin-top: 620px;
+    cursor: pointer;
+    width: 340px;
+    height: 480px;
+}
+.front-1, .back-1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.front-1 img {
+    height: 100%;
+}
+.front-1 {
+    transform: perspective(600px) rotateY(0deg);
+}
+.back-1 {
+    background: #fce5c5;
+    transform: perspective(600px) rotateY(180deg);
+}
+.back-content-1 {
+    color: #2c3e50;
+    text-align: center;
+    width: 100%;
+}
+.card-1:hover > .front-1 {
+    transition: 1s;
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card-1:hover > .back-1 {
+    transition: 1s;
+    transform: perspective(600px) rotateY(0deg);
+}
+.card-1:hover ~ .second-1 {
+    display: block;
+    transition: 3s;
+    opacity: 1;
+
+}
+
+.work-2 {
+    margin-left: 20%;
+    margin-top: 128px;
+}
+.second-2 {
+    display: block;
+    margin-right: 173px;
+    float: right;
+    transform: translateY(-486px);
+    opacity: 0;
+}
+.middle-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-2 {
+    margin-top: 1161px;
+    cursor: pointer;
+    width: 340px;
+    height: 480px;
+}
+.front-2, .back-2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.front-2 img {
+    height: 100%;
+}
+.front-2 {
+    transform: perspective(600px) rotateY(0deg);
+}
+.back-2 {
+    background: #fce5c5;
+    transform: perspective(600px) rotateY(180deg);
+}
+.back-content-2 {
+    color: #2c3e50;
+    text-align: center;
+    width: 100%;
+}
+.card-2:hover > .front-2 {
+    transition: 1s;
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card-2:hover > .back-2 {
+    transition: 1s;
+    transform: perspective(600px) rotateY(0deg);
+}
+.card-2:hover ~ .second-2 {
+    display: block;
+    transition: 3s;
+    opacity: 1;
+
+}
+
+
+.work-3 {
+    margin-left: 20%;
+    margin-top: 110px;
+}
+.second-3 {
+    display: block;
+    margin-right: 173px;
+    float: right;
+    transform: translateY(-479px);
+    opacity: 0;
+}
+.middle-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-3 {
+    margin-top: 1702px;
+    cursor: pointer;
+    width: 340px;
+    height: 480px;
+}
+.front-3, .back-3 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.front-3 img {
+    height: 100%;
+}
+.front-3 {
+    transform: perspective(600px) rotateY(0deg);
+}
+.back-3 {
+    background: #fce5c5;
+    transform: perspective(600px) rotateY(180deg);
+}
+.back-content-3 {
+    color: #2c3e50;
+    text-align: center;
+    width: 100%;
+}
+.card-3:hover > .front-3 {
+    transition: 1s;
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card-3:hover > .back-3 {
+    transition: 1s;
+    transform: perspective(600px) rotateY(0deg);
+}
+.card-3:hover ~ .second-3 {
+    display: block;
+    transition: 3s;
+    opacity: 1;
+
+}
